@@ -1,41 +1,52 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <title>Ajouter un projet</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<header>
-    <h1>Mon Portfolio</h1>
-    <nav>
-        <a href="lister-projets.html">Liste des projets</a> |
-        <a href="ajouter-projet.html">Ajouter un projet</a>
-    </nav>
-</header>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="lister-projets.html">Liste des projets</a></li>
+                    <li><a href="ajouter-projet.html">Ajouter un projet</a></li>
+                </ul>
+            </nav>
 
-<h2>Ajouter un projet</h2>
+            <div class="logo">
+                <h2>Portfolio</h2>
+            </div>
+        </div>
+    </header>
 
-<form action="#" method="post">
-    <label for="libelle">Libellé :</label><br>
-    <input type="text" id="libelle" name="libelle" required><br><br>
+    <h2>Ajouter un projet</h2>
 
-    <label for="description">Description :</label><br>
-    <textarea id="description" name="description" rows="4" required></textarea><br><br>
+    <form action="#" method="post">
+        <label for="libelle">Libellé :</label><br>
+        <input type="text" id="libelle" name="libelle" required><br><br>
 
-    <label for="image">URL de l'image :</label><br>
-    <input type="text" id="image" name="image" required><br><br>
+        <label for="description">Description :</label><br>
+        <textarea id="description" name="description" rows="4" required></textarea><br><br>
 
-    <label for="technologies">Technologies utilisées (séparées par des virgules) :</label><br>
-    <input type="text" id="technologies" name="technologies" required><br><br>
+        <label for="image">URL de l'image :</label><br>
+        <input type="text" id="image" name="image" required><br><br>
 
-    <button type="submit">Ajouter le projet</button>
-</form>
+        <label for="technologies">Technologies utilisées (séparées par des virgules) :</label><br>
+        <input type="text" id="technologies" name="technologies" required><br><br>
 
-<footer>
-    <p>&copy; 2026 Alia Diagne - Tous droits réservés</p>
-</footer>
+        <button type="submit">Ajouter le projet</button>
+    </form>
+
+    <footer>
+        <p>&copy; 2026 Alia Diagne - Tous droits réservés</p>
+    </footer>
 
 </body>
+
 </html>
